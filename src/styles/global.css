@@ -88,10 +88,14 @@ main > ul > li + li {
 }
 
 @media (max-width: 768px) {
+	body {
+		font-size: clamp(12px, 3.8vw, 20px);
+	}
+
 	header,
 	main {
-		margin-left: 32px;
-		margin-right: 32px;
+		margin-left: 24px;
+		margin-right: 24px;
 	}
 
 	header {
