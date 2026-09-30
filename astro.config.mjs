@@ -3,5 +3,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://marcaltabella.github.io'
+  site: 'https://marcaltabella.github.io',
+  server: { port: 3000 }
 });
